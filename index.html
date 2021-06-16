@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Pagne Webseite Landing Page</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- Compatible  with last version Microsoft Edge-->
+        <meta htpp-equiv="X-UA-Compatible" content="ie=edege" />
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+        <!-- normalize browser style -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet" />
+        <link href="/Css/style.css" rel="stylesheet" />
+    </head>
+    <body>
+        <section>
+            <div class="circle"></div>
+            <header>
+                <a href="#"><img src="Img/logo.jpg" class="logo" /></a>
+                <div class="toggle" onclick="toggleMenu();"></div>
+                <ul class="navigation">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Menu</a></li>
+                    <li><a href="#">New</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </header>
+            <div class="content">
+                <div class="textBox">
+                    <h2>
+                        Pagne is not Polyster<br />
+                        It´s <span>Wonderful</span>
+                    </h2>
+                    <p>La differnce ce fait au travers la qualité de l´habit.Habillez vous bien avec la marque Ines´happy.Faite la difference dans votre habillement même si on dit parfois la vie ne fait pas le mouane!</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div class="imgBox">
+                    <img src="Img/img6_gros.png" class="Pagne" />
+                </div>
+            </div>
+
+            <ul class="article">
+                <li><img src="Img/img1.jpg" onclick="imgSilder('Img/img6_gros.png') ;changeCircleColor('coral')" /></li>
+                <li><img src="Img/img4.jpg" onclick="imgSilder('Img/img4_gros.jpg') ;changeCircleColor('blue')" /></li>
+                <li><img src="Img/img3.jpg" onclick="imgSilder('Img/img3_gros.jpg') ; changeCircleColor('#d753b1')" /></li>
+            </ul>
+
+            <ul class="SoMe">
+                <li><a href="https://www.instagram.com/prunellededieu90/" class="fa fa-instagram"></a></li>
+                <li><a href="#" class="fa fa-linkedin"></a></li>
+                <li><a href="#" class="fa fa-facebook"></a></li>
+            </ul>
+        </section>
+        <script src="/js/app.js"></script>
+    </body>
+</html>
